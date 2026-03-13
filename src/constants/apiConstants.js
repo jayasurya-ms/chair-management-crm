@@ -84,6 +84,13 @@ export const POPUP_API = {
   byId: (id) => `/popup/${id}`,
   updateById: (id) => `/popup/${id}?_method=PUT`,
 };
+export const REPORT_API = {
+  productstock: "/product-stock-report",
+  componentstock: "/component-stock-report",
+  purchaseProductReport: "/purchase-product-report",
+  purchaseComponentReport: "/purchase-component-report",
+  orderReport: "/order-report",
+};
 export const PR_API = {
   list: "/pr",
   byId: (id) => `/pr/${id}`,
@@ -166,4 +173,3 @@ export const STUDENT_API = {
   byId: (id) => `/student/${id}`,
   updateById: (id) => `/student/${id}?_method=PUT`,
 };
-// 427*240
